@@ -43,7 +43,7 @@ public class NewTest {
 	public void beforeSuite() throws IOException
 	{
 		
-		System.setProperty("webdriver.chrome.driver", "src//test//resources//chromeexe//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\Users\HP\Downloads\chromedriver-win64 (1)\chromedriver-win64\chromedriver.exe");
 		driver=new ChromeDriver();
         Layout lay=new PatternLayout();
         Appender ap=new FileAppender(lay,"Cook.txt");
